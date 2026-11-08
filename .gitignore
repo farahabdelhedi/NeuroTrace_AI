@@ -1,0 +1,36 @@
+
+# Environnement Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environnements et secrets
+.env
+.env.*
+!.env.example
+
+# Jeux de données : ne pas envoyer les images IRM
+datasets/
+datasets_preprocessed/
+data/original/
+data/processed/
+
+# Résultats générés
+artifacts/
+gradcam_results/
+misclassified_images.csv
+
+# Sauvegardes
+scripts_backup/
+
+# Poids et modèles téléchargés
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Fichiers système
+.DS_Store
+Thumbs.db
