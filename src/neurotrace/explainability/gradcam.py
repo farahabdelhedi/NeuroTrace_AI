@@ -30,7 +30,7 @@ from config.model_config import (
     NORMALIZATION_STD
 )
 
-from src.neurotrace.ai.model_loader import ModelLoader
+from neurotrace.ai.model_loader import ModelLoader
 
 
 @dataclass

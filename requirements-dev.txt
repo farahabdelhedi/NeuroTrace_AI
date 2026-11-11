@@ -1,0 +1,10 @@
+
+# Dépendances principales
+-r requirements.txt
+
+# Tests
+pytest==9.2.0
+
+# Analyse et scripts expérimentaux
+pandas==3.1.0
+imutils==0.5.4

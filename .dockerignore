@@ -1,0 +1,41 @@
+
+# Environnements Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets et configuration locale
+.env
+.env.*
+
+# Datasets volumineux
+datasets/
+datasets_preprocessed/
+
+# Données et résultats locaux
+data/
+artifacts/
+gradcam_results/
+
+# Modèles locaux (téléchargés séparément)
+models/
+
+# Tests et scripts de développement
+tests/
+scripts/
+scripts_backup/
+experiments/
+
+# Git
+.git/
+.gitignore
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/

@@ -24,7 +24,7 @@ from config.model_config import (
     MODEL_REPO_ID
 )
 
-from src.neurotrace.ai.model_loader import ModelLoader
+from neurotrace.ai.model_loader import ModelLoader
 
 
 # ==================================================

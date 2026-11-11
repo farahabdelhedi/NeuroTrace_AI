@@ -34,3 +34,14 @@ scripts_backup/
 # Fichiers système
 .DS_Store
 Thumbs.db
+# Stockage local des artefacts et images IRM
+data/storage/
+
+# Dépendances Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+
+# Fichiers sensibles Fabric
+*.key
+*_sk
